@@ -1,2 +1,3 @@
 docker --version -> Check version of docker.
 docker pull <image_name> → Download an image from Docker Hub
+docker images -> List all downloaded images on your system
