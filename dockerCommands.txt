@@ -6,3 +6,4 @@ docker run -it <image_name> → Run container in interactive mode (terminal acce
 docker run -d <image_name> → Run container in detached (background) mode.
 docker run --name <name> <image_name> → Assign a custom name to the container.
 docker run -p host:container <image_name> → Map host port to container port.
+docker run -v host:container <image_name> → Mount a volume for file sharing.
