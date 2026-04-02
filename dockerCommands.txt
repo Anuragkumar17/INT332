@@ -4,3 +4,4 @@ docker images -> List all downloaded images on your system.
 docker run <image_name> → Create and start a container from an image.
 docker run -it <image_name> → Run container in interactive mode (terminal access).
 docker run -d <image_name> → Run container in detached (background) mode.
+docker run --name <name> <image_name> → Assign a custom name to the container.
