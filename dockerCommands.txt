@@ -9,3 +9,4 @@ docker run -p host:container <image_name> → Map host port to container port.
 docker run -v host:container <image_name> → Mount a volume for file sharing.
 docker ps -> List running containers.
 docker ps -a -> List all containers (running + stopped).
+docker stop <container_id> → Stop a running container.
