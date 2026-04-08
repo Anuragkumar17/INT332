@@ -12,3 +12,4 @@ docker ps -a -> List all containers (running + stopped).
 docker stop <container_id> → Stop a running container.
 docker restart <container_id> → Restart a container.
 docker rm <container_id> → Remove a stopped container.
+docker rmi <image_name> → Remove an image.
