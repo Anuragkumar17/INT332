@@ -17,3 +17,4 @@ docker exec -it <container_id> /bin/bash → Access running container terminal.
 docker logs <container_id> → View container logs.
 docker inspect <container_id> → View detailed container information.
 docker build -t <image_name> . → Build an image from Dockerfile.
+docker tag <image> <new_name> → Tag an image.
