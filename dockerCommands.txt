@@ -22,3 +22,4 @@ docker push <image_name> → Push image to Docker Hub.
 docker login → Login to Docker Hub.
 docker logout → Logout from Docker Hub.
 docker network ls → List networks.
+docker volume ls → List volumes.
