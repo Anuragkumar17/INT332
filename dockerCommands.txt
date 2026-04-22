@@ -24,3 +24,5 @@ docker logout → Logout from Docker Hub.
 docker network ls → List networks.
 docker volume ls → List volumes.
 docker system prune → Remove unused data (containers, images, networks).
+docker pause <container_id> → Pause all processes in a container.
+docker unpause <container_id> → Resume a paused container.
