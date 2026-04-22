@@ -28,3 +28,4 @@ docker pause <container_id> → Pause all processes in a container.
 docker unpause <container_id> → Resume a paused container.
 docker unpause <container_id> → Resume a paused container.
 docker rename <old_name> <new_name> → Rename a container.
+docker attach <container_id> → Attach to a running container’s terminal.
