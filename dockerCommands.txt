@@ -31,3 +31,4 @@ docker rename <old_name> <new_name> → Rename a container.
 docker attach <container_id> → Attach to a running container’s terminal.
 docker cp <container_id>:<path> <host_path> → Copy files from container to host.
 docker cp <host_path> <container_id>:<path> → Copy files from host to container.
+docker stats → Show real-time resource usage of containers.
