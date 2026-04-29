@@ -33,3 +33,4 @@ docker cp <container_id>:<path> <host_path> → Copy files from container to hos
 docker cp <host_path> <container_id>:<path> → Copy files from host to container.
 docker stats → Show real-time resource usage of containers.
 docker rm <container_id> → Remove a stopped container.
+docker inspect <container_id> → View detailed container information.
