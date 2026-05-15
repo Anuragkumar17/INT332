@@ -2,3 +2,4 @@ mvn -version : Check Maven version
 mvn archetype:generate : Create a new project
 mvn compile : Compile source code
 mvn test : Run unit tests
+mvn package : Create JAR/WAR file
