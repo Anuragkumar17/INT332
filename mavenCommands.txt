@@ -1,2 +1,3 @@
 mvn -version : Check Maven version
-
+mvn archetype:generate : Create a new project
+mvn compile : Compile source code
